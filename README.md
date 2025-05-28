@@ -100,12 +100,9 @@ movie_ticketing_system/
 2. 将 `backend/data.sql` 文件中的 SQL 语句导入到数据库中。
 
 ### 后端运行
-1. 打开终端，切换到后端项目根目录 `backend/`。
-2. 运行以下命令启动后端项目：
-   ```bash
-   mvn spring-boot:run
-   ```
-3. 后端项目默认运行在 `http://localhost:8080`。
+1. 用IDE打开后端代码文件夹`movie_backend`。
+2. 根据文件目录`src/main/java/.../MovieBackendApplication`找到启动器。
+3. 直接运行启动器`MovieBackendApplication`。
 
 ### 前端运行
 1. 打开新的终端，切换到前端项目根目录 `frontend/`。
